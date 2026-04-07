@@ -33,6 +33,12 @@ const navTheme = {
     border: colors.border,
     notification: colors.primary,
   },
+  fonts: {
+    regular: { fontFamily: 'System', fontWeight: '400' },
+    medium: { fontFamily: 'System', fontWeight: '500' },
+    bold: { fontFamily: 'System', fontWeight: '700' },
+    heavy: { fontFamily: 'System', fontWeight: '900' },
+  },
 };
 
 const styles = StyleSheet.create({
